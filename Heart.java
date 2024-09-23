@@ -5,7 +5,8 @@ public class Heart extends MuralPainter {
   public void drawHeart() {
       drawFartHeart();
   }
-public void drawFartHeart() {
+public void drawFartHeart() // Calls the method to draw a heart shape
+ {
   move();
   move();
   move();
@@ -15,7 +16,7 @@ public void drawFartHeart() {
   turnRight();
   move();
   move();
-  paintLine("firebrick", 1);
+  paintLine("firebrick", 1); // Paints the first segment of the heart shape
   turnLeft();
   turnLeft();
   move();
